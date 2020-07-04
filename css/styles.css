@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+    background-color: #15161D;
+    border-bottom: 2px red solid;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-right: 15px;
+}
+
+.menu li a{
+    color: #15161D;
+}
+
+#navigation{
+    padding: 20px 0px;
+    border-bottom:1px gray solid;
+}
+
+.menu li a:hover{
+    color: red;
+    text-decoration: underline;
+}
