@@ -17,11 +17,6 @@ a{
     border-bottom: 2px red solid;
 }
 
-.container{
-    max-width: 1000px;
-    margin: auto;
-}
-
 .menu{
     display: flex;
 }
