@@ -103,3 +103,61 @@ a{
 .btn-pill {
   border-radius: 25px !important;
 }
+
+.card-span{
+    background-color: red;
+    color: #ffffff;
+    padding: 2px 5px;
+    border: 1px red solid;
+    width: 60px;
+    text-align:center;
+    position: absolute;
+    right:10px;
+    top: 10px;
+    font-size: 12px;
+}
+
+.card-category{
+    color:grey;
+    font-size: 13px;
+}
+
+.card-product-name{
+    font-weight:bold;
+    font-size: 15px;
+    color: #15161D;
+}
+
+.card-product-price{
+    color: red;
+    font-weight: bold;
+}
+.card-product-price del{
+    color: grey;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.fa-star{
+    color: red;
+}
+
+.content-icons a{
+    color:#15161D;
+}
+
+.card-footer{
+    display:none;
+}
+
+.card-footer:hover{
+    display:block;
+}
+
+.card:hover + .card-footer{
+    display: block;
+}
+
+.card:hover{
+    border-color: red;
+}
